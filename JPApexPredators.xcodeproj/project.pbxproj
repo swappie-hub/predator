@@ -10,7 +10,7 @@
 		8301D1A12C53863E002F1CE1 /* PredatorMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301D1A02C53863E002F1CE1 /* PredatorMap.swift */; };
 		8301D1A72C539F4B002F1CE1 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8301D1A62C539F4B002F1CE1 /* Stickers.xcassets */; };
 		8301D1AB2C539F4B002F1CE1 /* ApexStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8301D1A42C539F49002F1CE1 /* ApexStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		831CBE1A2C526AA6008C8234 /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CBE192C526AA6008C8234 /* PredatorDetail.swift */; };
+		831CBE1A2C526AA6008C8234 /*   .swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CBE192C526AA6008C8234 /*   .swift */; };
 		83BC6FEC2C512895003D4EFF /* JPApexPredatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC6FEB2C512895003D4EFF /* JPApexPredatorsApp.swift */; };
 		83BC6FEE2C512895003D4EFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC6FED2C512895003D4EFF /* ContentView.swift */; };
 		83BC6FF02C512896003D4EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BC6FEF2C512896003D4EFF /* Assets.xcassets */; };
@@ -49,7 +49,7 @@
 		8301D1A42C539F49002F1CE1 /* ApexStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ApexStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8301D1A62C539F4B002F1CE1 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		8301D1A82C539F4B002F1CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		831CBE192C526AA6008C8234 /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
+		831CBE192C526AA6008C8234 /*   .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "  .swift"; sourceTree = "<group>"; };
 		83BC6FE82C512895003D4EFF /* JPApexPredators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPApexPredators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BC6FEB2C512895003D4EFF /* JPApexPredatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexPredatorsApp.swift; sourceTree = "<group>"; };
 		83BC6FED2C512895003D4EFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				83BC6FEB2C512895003D4EFF /* JPApexPredatorsApp.swift */,
 				83BC6FED2C512895003D4EFF /* ContentView.swift */,
-				831CBE192C526AA6008C8234 /* PredatorDetail.swift */,
+				831CBE192C526AA6008C8234 /*   .swift */,
 				8301D1A02C53863E002F1CE1 /* PredatorMap.swift */,
 				83BC6FFB2C512AC2003D4EFF /* ApexPredator.swift */,
 				83BC6FFD2C512F4B003D4EFF /* Predators.swift */,
@@ -225,7 +225,7 @@
 				83BC6FFC2C512AC2003D4EFF /* ApexPredator.swift in Sources */,
 				8301D1A12C53863E002F1CE1 /* PredatorMap.swift in Sources */,
 				83BC6FEE2C512895003D4EFF /* ContentView.swift in Sources */,
-				831CBE1A2C526AA6008C8234 /* PredatorDetail.swift in Sources */,
+				831CBE1A2C526AA6008C8234 /*   .swift in Sources */,
 				83BC6FFE2C512F4B003D4EFF /* Predators.swift in Sources */,
 				83BC6FEC2C512895003D4EFF /* JPApexPredatorsApp.swift in Sources */,
 			);

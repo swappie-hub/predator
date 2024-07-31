@@ -10,14 +10,21 @@ import MapKit
 struct PredatorMap: View {
     let predators = Predators()
     @State var satellite: Bool = false
+    
+    
     @State var position: MapCameraPosition
     var body: some View {
         Map(position: $position){
             ForEach(predators.apexPredators){
                 predator in Annotation(predator.name, coordinate: predator.location) {
-                    Image(predator.image).resizable().scaledToFit().frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-                        .shadow(color :.white, radius: 3)
-                        .scaleEffect(x:-1)
+                    Button{
+                        
+                    }label: {
+                        Image(predator.image).resizable().scaledToFit().frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                            .shadow(color :.white, radius: 3)
+                            .scaleEffect(x:-1)
+                    }
+                   
                 }
             }
         }
